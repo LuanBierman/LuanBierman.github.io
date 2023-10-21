@@ -69,24 +69,35 @@
 
         <section class="pdf-container">
             <!-- Replace 'your_cv.pdf' with the actual path to your CV PDF -->
-            <iframe src="https://docs.google.com/viewer?srcid=1KkyzMOn9kOB-lxIQ5fhFe-OG9EOwaZx0&pid=explorer&efh=false&a=v&chrome=false&embedded=true"; style="width:100%; height:500px;" frameborder="0"></iframe>
+            <iframe src="https://docs.google.com/viewer?srcid=1KkyzMOn9kOB-lxIQ5fhFe-OG9EOwaZx0&pid=explorer&efh=false&a=v&chrome=false&embedded=true"; style="width:100%; height:700px;" frameborder="0"></iframe>
             <!--object data="luan_bierman_cv.pdf" type="application/pdf" width="100%" height="500px">
                 Your browser does not support PDFs. <a href="luan_bierman_cv.pdf">Download PDF</a> instead.
         </object-->
         </section>
 
         <section class="project">
-            <h2>Projects</h2>
+            <h2>University-Related Projects</h2>
+            <h3>Colour Line following car in PIC18 ASM, EMK310 (Microcontrollers 310)</h3>
             <div class="project-item">
-                <img src="project1.jpg" alt="Project 1">
-                <p>Description of Project 1</p>
+                <img src="car360.gif" alt="EMK310">
+                <img src="minilap.gif" alt="ELO320">
+                <p>An automatic line following car made to identify and follow lines of various colours, dynamically. Powered by the PIC18F45K22, programmed in 8-bit ASM. Top 15 finisher in the annual <a href="https://www.up.ac.za/eece/article/2669042/annual-robot-car-race">EECE Robot Race</a>. The PCB was designed and etched by me using transfer and chemical etching techniques.</p>
             </div>
 
+            <h3>Sensor Subsystem for Maze solving car, ELO320 (Electronic Engineering Design 320)</h3>
             <div class="project-item">
-                <img src="project2.jpg" alt="Project 2">
-                <p>Description of Project 2</p>
+                <img src="minilap1.gif" alt="ELO320">
+                <p>A colour sensing subsystem designed to integrate into a larger maze solving robot, running on an ATMega480 and programmed in C/C++. The subsystem detects colours on a printed maze and calculates the incedence angle of a line being approached. The sensor is able to dynamically adjust the birghtness of the Strobing LED's used for colour identification. The System was designed to adhere to a set of specifications to ensure modularity and ease of integration with compliant systems.</p>
             </div>
             <!-- Add more project sections as needed -->
+
+            <h2>Personal Projects<h2>
+                <h3>Birday, the pure C Cowsay</h3>
+                <div class="project-item">
+                    <img src="birdsay.png" alt="Birdsay Terminal">
+                    <p><a href="https://github.com/BiermanL/birdsay">Birdsay</a> is a pure c clone of popular linux terminal program <a href="https://github.com/piuccio/cowsay">cowsay</a>, written in 5 minutes during a communications class as an attempt to refocus after extreme lack of sleep. The attempt was unsuccessful; the program remains.</p>
+                </div>
+
         </section>
     </div>
 </body>
